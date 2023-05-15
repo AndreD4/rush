@@ -14,12 +14,14 @@ public class CoordinateLabber : MonoBehaviour
     {
        label = GetComponent<TextMeshPro>();
        DisplayCoordinates();
+       
     }
     void Update()
     {
         if(!Application.isPlaying)
         {
            DisplayCoordinates();
+           UpdateObjectName();
         }
     }
 
