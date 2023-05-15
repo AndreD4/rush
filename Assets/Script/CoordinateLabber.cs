@@ -8,6 +8,7 @@ using TMPro;
 public class CoordinateLabber : MonoBehaviour
 {
     TextMeshPro label;
+    Vector2Int coordinates = new Vector2Int();
 
     void Awake() 
     {
@@ -23,6 +24,9 @@ public class CoordinateLabber : MonoBehaviour
 
     void DisplayCoordinates()
     {
-      label.text = "--,--";
+      coordinates.x = Mathf.RoundToInt(transform.parent.position.x);
+      coordinates.y = Mathf.RoundToInt(transform.parent.position.z);
+
+      label.text = coordinates.x + "," + coordinates.y;
     }
 }
