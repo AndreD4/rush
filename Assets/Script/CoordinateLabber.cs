@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+// Representing where on the grid things are going to be placed
 
 [ExecuteAlways]
 public class CoordinateLabber : MonoBehaviour
