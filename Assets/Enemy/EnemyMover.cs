@@ -21,6 +21,9 @@ public class EnemyMover : MonoBehaviour
     {
       foreach(WayPoint waypoint in path)
       {
+        Vector3 startPosition = transform.position;
+        Vector3 endPosition = waypoint.transform.position;
+
         transform.position = waypoint.transform.position;
         yield return new WaitForSeconds(waitTime);
       }
