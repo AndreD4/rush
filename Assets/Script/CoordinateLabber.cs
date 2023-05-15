@@ -6,15 +6,12 @@ using UnityEngine;
 [ExecuteAlways]
 public class CoordinateLabber : MonoBehaviour
 {
-    
-    void Start()
-    {
-        
-    }
 
-    
     void Update()
     {
-        
+        if(!Application.isPlaying)
+        {
+          //do somthing
+        }
     }
 }
