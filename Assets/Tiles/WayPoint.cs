@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WayPoint : MonoBehaviour
 {
-  void OnMouseOver() 
+  void OnMouseDown() 
   {
     Debug.Log(transform.name);
   }
