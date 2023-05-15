@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile_Road_Coner
       objectReference: {fileID: 0}
+    - target: {fileID: 2346269804604880912, guid: a18462e89bca2784080c9bd2a39644b1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3525419152469623406, guid: a18462e89bca2784080c9bd2a39644b1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -59,5 +63,9 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -2432090755550338912, guid: 626410dc07212d749823da2540a223bb, type: 3}
+    - target: {fileID: 6176081541849221202, guid: a18462e89bca2784080c9bd2a39644b1, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a18462e89bca2784080c9bd2a39644b1, type: 3}
