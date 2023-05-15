@@ -13,6 +13,7 @@ public class CoordinateLabber : MonoBehaviour
     void Awake() 
     {
        label = GetComponent<TextMeshPro>();
+       DisplayCoordinates();
     }
     void Update()
     {
