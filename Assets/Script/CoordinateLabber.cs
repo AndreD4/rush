@@ -30,4 +30,9 @@ public class CoordinateLabber : MonoBehaviour
 
       label.text = coordinates.x + "," + coordinates.y;
     }
+
+    void UpdateObjectName()
+    {
+      transform.parent.name = coordinates.ToString();
+    }
 }
