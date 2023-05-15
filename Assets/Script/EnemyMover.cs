@@ -8,6 +8,8 @@ public class EnemyMover : MonoBehaviour
     void Start()
     {
         PrintWayPointName();
+        InvokeRepeating("PrintWayPointName", 0, 1f);
+
     }
 
     void PrintWayPointName()
