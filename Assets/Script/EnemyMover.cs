@@ -7,7 +7,9 @@ public class EnemyMover : MonoBehaviour
     [SerializeField] List<WayPoint> path = new List<WayPoint>();
     void Start()
     {
+      Debug.Log("start here");
        StartCoroutine(FollowPath());
+      Debug.Log("finishing start");
     }
 
     /*
